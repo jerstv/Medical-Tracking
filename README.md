@@ -1,6 +1,10 @@
-# meditrack
+# meditrack (Medical Tracking Project)
+![WhatsApp Image 2025-07-30 at 21 23 58_9c175e6b](https://github.com/user-attachments/assets/7a8a774f-510b-4799-9231-990dbc884b58)
 
-A new Flutter project.
+Anggota kelompok:
+Daniel Laira Pratama (20220801538)
+Defira Patricia (20220801539)
+Jeremy Steven Due Stanis (20220801540)
 
 ## Getting Started
 
@@ -14,3 +18,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Inspirate By:
+https://github.com/dc-exe/Health_and_Doctor_Appointment.git
