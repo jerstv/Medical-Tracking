@@ -1,12 +1,12 @@
 # meditrack (Medical Tracking Project)
 ![WhatsApp Image 2025-07-30 at 21 23 58_9c175e6b](https://github.com/user-attachments/assets/7a8a774f-510b-4799-9231-990dbc884b58)
 
-Anggota kelompok:
-Daniel Laira Pratama (20220801538)
-Defira Patricia (20220801539)
-Jeremy Steven Due Stanis (20220801540)
+## Anggota kelompok:
+- Daniel Laira Pratama (20220801538)
+- Defira Patricia (20220801539)
+- Jeremy Steven Due Stanis (20220801540)
 
-## Getting Started
+### Getting Started
 
 This project is a starting point for a Flutter application.
 
