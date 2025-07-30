@@ -7,17 +7,51 @@
 - Jeremy Steven Due Stanis (20220801540)
 
 ### Getting Started
+Arsitektur Aplikasi "MediTrack"
 
-This project is a starting point for a Flutter application.
+Aplikasi MediTrack dibangun dengan Flutter (untuk UI) dan menggunakan Firebase (untuk backend).
 
-A few resources to get you started if this is your first Flutter project:
+Alur Utama:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    Aplikasi menginisialisasi Firebase saat dimulai.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    AuthWrapper memeriksa status login dan peran pengguna (biasa atau admin) dari Firebase Authentication dan Cloud Firestore.
 
-Inspirate By:
+    Berdasarkan peran, pengguna diarahkan ke DashboardPage (pengguna) atau AdminDashboardPage (admin).
+
+Fungsionalitas Pengguna:
+
+    LoginPage & RegisterPage: Mengelola proses masuk dan pendaftaran akun.
+
+    DashboardPage memiliki:
+
+        HomeTab: Untuk menambahkan catatan medis dan melihat grafik tren kesehatan (tekanan darah, detak jantung, glukosa) dari data Firestore.
+
+        ProfileTab: Untuk melihat dan memperbarui informasi profil pengguna di Firestore.
+
+        LogoutTab: Untuk keluar dari akun.
+
+Fungsionalitas Admin:
+
+    AdminDashboardPage memiliki:
+
+        AdminUserManagementTab: Untuk mengelola (melihat, mencari, mengedit, menghapus) data pengguna di Firestore.
+
+        AdminMedicalRecordsTab: Untuk mengelola (melihat, mencari, menghapus) semua catatan medis di Firestore.
+
+Teknologi Utama:
+
+    Flutter: Framework pengembangan aplikasi.
+
+    Firebase Authentication: Untuk otentikasi pengguna.
+
+    Cloud Firestore: Database NoSQL untuk menyimpan data pengguna dan catatan medis.
+
+    Syncfusion Flutter Charts: Untuk visualisasi data tren medis.
+
+    StreamBuilder & FutureBuilder: Untuk pembaruan data real-time.
+
+Aplikasi ini menyediakan sistem manajemen kesehatan pribadi dengan dua tingkat akses (User dan admin), sepenuhnya didukung oleh Firebase.
+
+####Inspirate By:
 https://github.com/dc-exe/Health_and_Doctor_Appointment.git
